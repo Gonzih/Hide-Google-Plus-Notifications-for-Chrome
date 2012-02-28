@@ -1,6 +1,6 @@
 {
   "name": "Hide Google Plus Notifications",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hide Google Plus Notifications",
   "content_scripts": [
     {
