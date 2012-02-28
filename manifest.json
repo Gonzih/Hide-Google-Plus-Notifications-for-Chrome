@@ -11,7 +11,9 @@
           "https://docs.google.com/*",
           "https://encrypted.google.com/*",
           "https://translate.google.com/*",
-          "http://translate.google.com/*"
+          "http://translate.google.com/*",
+          "https://www.google.com/reader/*",
+          "http://www.google.com/reader/*"
       ],
       "js": ["contentscript.js"],
       "all_frames": true
