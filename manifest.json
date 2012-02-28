@@ -1,0 +1,18 @@
+{
+  "name": "Hide Google Plus Notifications",
+  "version": "0.0.1",
+  "description": "Hide Google Plus Notifications",
+  "content_scripts": [
+    {
+      "matches": [
+          "http://mail.google.com/*",
+          "https://mail.google.com/*",
+          "https://www.google.com/calendar/*",
+          "https://docs.google.com/*",
+          "https://encrypted.google.com/*"
+      ],
+      "js": ["contentscript.js"],
+      "all_frames": true
+    }
+  ]
+}
